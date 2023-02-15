@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://aoi.js.org">
+  <a href="https://discord.gg/TBwPxtUG5p">
     <img width="300" src="https://cdn.discordapp.com/attachments/1072172842201919629/1075269004408672346/palpley3.png" alt="palpley.png">
   </a>
 </p>
