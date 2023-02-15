@@ -1,0 +1,17 @@
+module.exports = [{
+  name: "police",
+  $if : 'old',
+  aliases: ['fbi','cia'],
+  code: `$if[$getguildVar[english]==1]
+$author[1;Oh no, la policía ha llegado, ¡corran!;$userAvatar]
+$image[1;$randomText[https://cdn.discordapp.com/attachments/381330993233002496/541869979667005441/unnamed_2.gif;https://cdn.discordapp.com/attachments/399448944889036801/534108278351855616/5.gif;https://cdn.discordapp.com/attachments/381330993233002496/541870158445281280/unnamed_8.gif;https://cdn.discordapp.com/attachments/399448944889036801/633404185613959199/93b37b5aee9085d904593fc579e80765.gif;https://cdn.discordapp.com/attachments/399448944889036801/536242642732843008/OpulentLastCutworm-small.gif;https://cdn.discordapp.com/attachments/381330993233002496/541870159267233792/unnamed_9.gif;https://cdn.discordapp.com/attachments/381330993233002496/541867813216714752/tenor_1.gif;https://cdn.discordapp.com/attachments/381330993233002496/541870564847910912/unnamed_5.gif;https://imgur.com/NiouLr9.gif;https://cdn.discordapp.com/attachments/451514391951704074/541863510867443712/1433372630_3pbudSZ.gif;https://cdn.discordapp.com/attachments/451514391951704074/541863738626801676/tenor.gif;https://cdn.discordapp.com/attachments/381330993233002496/541869979667005443/unnamed_3.gif;https://cdn.discordapp.com/attachments/399448944889036801/534108919656742919/6.gif;https://cdn.discordapp.com/attachments/451514391951704074/541864052583038981/UnevenTenderBeauceron-size_restricted.gif;https://cdn.discordapp.com/attachments/399448944889036801/704902302842224640/tenor_1.gif]]
+$color[1;#eccb09]
+$onlyIf[$getVar[lockdown]==off;{newEmbed:{title:$getUserVar[titleBloqueo]}{color:$getUserVar[colorBloqueo]}{thumbnail:$getUserVar[imgMiniaturaBloqueo]}{description:$getUserVar[textBloqueo]}]
+$endif
+
+$if[$getguildVar[english]==2]
+$author[1;Oh no, the FBI has arrived, run away!;$userAvatar]
+$image[1;$randomText[https://cdn.discordapp.com/attachments/381330993233002496/541869979667005441/unnamed_2.gif;https://cdn.discordapp.com/attachments/399448944889036801/534108278351855616/5.gif;https://cdn.discordapp.com/attachments/381330993233002496/541870158445281280/unnamed_8.gif;https://cdn.discordapp.com/attachments/399448944889036801/633404185613959199/93b37b5aee9085d904593fc579e80765.gif;https://cdn.discordapp.com/attachments/399448944889036801/536242642732843008/OpulentLastCutworm-small.gif;https://cdn.discordapp.com/attachments/381330993233002496/541870159267233792/unnamed_9.gif;https://cdn.discordapp.com/attachments/381330993233002496/541867813216714752/tenor_1.gif;https://cdn.discordapp.com/attachments/381330993233002496/541870564847910912/unnamed_5.gif;https://imgur.com/NiouLr9.gif;https://cdn.discordapp.com/attachments/451514391951704074/541863510867443712/1433372630_3pbudSZ.gif;https://cdn.discordapp.com/attachments/451514391951704074/541863738626801676/tenor.gif;https://cdn.discordapp.com/attachments/381330993233002496/541869979667005443/unnamed_3.gif;https://cdn.discordapp.com/attachments/399448944889036801/534108919656742919/6.gif;https://cdn.discordapp.com/attachments/451514391951704074/541864052583038981/UnevenTenderBeauceron-size_restricted.gif;https://cdn.discordapp.com/attachments/399448944889036801/704902302842224640/tenor_1.gif]]
+$color[1;#eccb09]
+$onlyIf[$getVar[lockdown]==off;{newEmbed:{title:$getUserVar[lockdowntitle]}{color:$getUserVar[lockdowncolor]}{thumbnail:$getUserVar[imgLockThumbnail]}{description:$getUserVar[lockdowntext]}]
+$endif`}]
