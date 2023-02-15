@@ -1,3 +1,23 @@
+<p align="center">
+  <a href="https://aoi.js.org">
+    <img width="300" src="https://cdn.discordapp.com/attachments/1072172842201919629/1075269004408672346/palpley3.png" alt="palpley.png">
+  </a>
+</p>
+
+<h1 align="center">PalPley</h1>
+
+<div align="center">
+
+**Top.gg**
+
+[![PalPley Server][palpley-server]][palpley-server-url]
+
+[palpley-server]: https://img.shields.io/discord/1050492618146062497?color=C0E4FF&label=SERVIDOR&style=for-the-badge
+[palpley-server-url]: https://discord.gg/TBwPxtUG5p
+
+</div>
+
+
 ## PalPley Politica
 
 Esta politica consiste que el bot comparte codigos con aliados, socios e amigos; nuestro equipo no pasa codigos a cualquier usario, solo pasamos a los que tenemos confianza e amistad o sean socios.
