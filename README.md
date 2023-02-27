@@ -26,7 +26,7 @@ No compartimos informacion de otros usuarios si esta sometida en nuestra DataBas
 
 Nuestro proyecto PalPley Studios trata de alegrar a la comunidad de discord y ser util en los millones de servidores que exite en discord, la idea se creo pasando por una noche larga y sufrimiento despues de muchos proyectos fallidos por eso se eligio que este proyecyo se quede intacto cueste lo que cueste, no dejaremos que nada nos detenga y seguiremos adelante para que el bot se mantenga, muchas gracias por estar con nostros usuario.
 
-## Versiones
+## Version
 
 `v0.0.1`
 `v0.1.0`
@@ -39,7 +39,8 @@ Futura version muy pronto.
 ## Siglos
 
 `Siglo 1 (Terminado)`
-`Siglo 2 (En proceso)`
+`Siglo 2 (Terminado)`
+`Siglo 3 (En proceso)`
 
 Los siglos siguen aumentando.
 
